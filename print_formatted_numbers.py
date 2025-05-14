@@ -1,9 +1,9 @@
 def print_formatted(number):
     # your code goes here
-    witdh = len(bin(number)[2:])
+    width = len(bin(number)[2:])
 
     for i in range(1, number + 1):
-        print(f"{i:{witdh}} {i:{witdh}o} {i:{witdh}X} {i:{witdh}b}")
+        print(f"{i:{width}} {i:{width}o} {i:{width}X} {i:{width}b}")
 
 
 if __name__ == '__main__':
